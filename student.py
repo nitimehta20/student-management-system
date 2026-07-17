@@ -20,5 +20,5 @@ def search_student(student_id):
 def update_student(student_id, new_name):
     if student_id in students:
         students[student_id] = new_name
-        return True
+        return Tru
     return False
